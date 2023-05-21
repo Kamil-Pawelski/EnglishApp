@@ -6,5 +6,6 @@ class Program
     {
         Subject subject = new Subject();
         subject.ReadFile("Dom.txt");
+        subject.ReadFiles();
     }
 }
